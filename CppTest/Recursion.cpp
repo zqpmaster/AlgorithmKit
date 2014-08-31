@@ -7,7 +7,7 @@
 //
 
 #include "Recursion.h"
-
+#include "String.h"
 void recPermute(string sofar,string rest){
     if (rest=="") {
         cout<<sofar<<endl;

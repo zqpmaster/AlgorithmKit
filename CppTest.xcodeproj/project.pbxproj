@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		27E6BD4B19581B3800C486E7 /* Recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27E6BD4919581B3800C486E7 /* Recursion.cpp */; };
+		27EB7F9019B354E600FCEC50 /* BSTTreeOfAli.c in Sources */ = {isa = PBXBuildFile; fileRef = 27EB7F8F19B354E600FCEC50 /* BSTTreeOfAli.c */; };
+		27EB7F9319B3556200FCEC50 /* SubStringOfAli.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27EB7F9119B3556100FCEC50 /* SubStringOfAli.cpp */; };
 		27FE6E541932FD6100AB2EDE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27FE6E531932FD6100AB2EDE /* main.cpp */; };
 		27FE6E561932FD6100AB2EDE /* CppTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27FE6E551932FD6100AB2EDE /* CppTest.1 */; };
 /* End PBXBuildFile section */
@@ -28,6 +30,9 @@
 /* Begin PBXFileReference section */
 		27E6BD4919581B3800C486E7 /* Recursion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Recursion.cpp; path = CppTest/Recursion.cpp; sourceTree = "<group>"; };
 		27E6BD4A19581B3800C486E7 /* Recursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recursion.h; path = CppTest/Recursion.h; sourceTree = "<group>"; };
+		27EB7F8F19B354E600FCEC50 /* BSTTreeOfAli.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BSTTreeOfAli.c; path = CppTest/BSTTreeOfAli.c; sourceTree = "<group>"; };
+		27EB7F9119B3556100FCEC50 /* SubStringOfAli.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubStringOfAli.cpp; sourceTree = "<group>"; };
+		27EB7F9219B3556200FCEC50 /* SubStringOfAli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubStringOfAli.h; sourceTree = "<group>"; };
 		27FE6E501932FD6100AB2EDE /* CppTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FE6E531932FD6100AB2EDE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		27FE6E551932FD6100AB2EDE /* CppTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CppTest.1; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 			children = (
 				27E6BD4A19581B3800C486E7 /* Recursion.h */,
 				27E6BD4919581B3800C486E7 /* Recursion.cpp */,
+				27EB7F8F19B354E600FCEC50 /* BSTTreeOfAli.c */,
+				27EB7F9119B3556100FCEC50 /* SubStringOfAli.cpp */,
+				27EB7F9219B3556200FCEC50 /* SubStringOfAli.h */,
 			);
 			name = Algorithm;
 			sourceTree = "<group>";
@@ -131,7 +139,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E6BD4B19581B3800C486E7 /* Recursion.cpp in Sources */,
+				27EB7F9019B354E600FCEC50 /* BSTTreeOfAli.c in Sources */,
 				27FE6E541932FD6100AB2EDE /* main.cpp in Sources */,
+				27EB7F9319B3556200FCEC50 /* SubStringOfAli.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

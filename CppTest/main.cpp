@@ -11,41 +11,76 @@
 #include <string>
 #include "Recursion.h"
 
+#include "SubStringOfAli.h"
+
 using namespace std;
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    cout << "Hello, World!\n";
-    vector<int> vecInts;
-    vecInts.push_back(440);
-    vecInts.push_back(111);
-    vecInts.push_back(432);
-    vecInts.push_back(532);
-    vecInts.push_back(261);
-    vecInts.push_back(277);
-
-    sort(vecInts.begin(),vecInts.end());
-
-    for (vector<int>::iterator iter=vecInts.begin(); iter!=vecInts.end(); iter++) {
-        cout<<*iter<<endl;
-    }
     
-    Recursion *recursio=new Recursion();
     
-    printf("//递归全排序//\n");
-    recursio->testPermute("test");//递归全排序
+    char * query="ccb";
+    char * test="calccbabb";
+//    int length=queryTest(test,query);
     
-    printf("//递归子集//\n");
-    recursio->testSubsets("test");//递归子集
+//    printf("%d",length);
     
-
+    queryText(test, query);
+    
     return 0;
-
+    
 }
 
-void testString(){
-    string str="yaaaa";
-    str.substr(0);
+
+
+void prt(int n);
+void quick_sort (int data[], size_t left,
+                 size_t right);
+int a[]= { 1, 2, 8, 7, 9, 5, 6, 4, 3, 66, 77, 33, 22, 11 };
+
+
+int queryTest(char *test,char *query){
+    
+    
+    int length=0;
+    int longLength=0;
+    bool saming=true;
+    int j=0;
+    
+    for (int i=0;i<sizeof(test) ; i++) {
+
+        char x=test[i];
+        
+        for (; j<sizeof(query); j++) {
+            char z=query[j];
+            if(x==z){
+                saming=true;
+                length++;
+                j++;
+                break;//保存j
+            }else{
+                if (saming) {
+                    if (length>longLength) {
+                        longLength=length;
+
+                    }
+                    length=0;
+                    saming=false;
+                    j=0;
+                }
+            }
+        }
+        
+    }
+    return longLength;
 }
+
+
+
+
+
+
+
+
+
+
