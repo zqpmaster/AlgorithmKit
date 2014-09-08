@@ -19,7 +19,7 @@ int main(int argc, const char * argv[])
 {
     
     
-    char * query="ccb";
+    char * query="KLccb";
     char * test="calccbabb";
 //    int length=queryTest(test,query);
     

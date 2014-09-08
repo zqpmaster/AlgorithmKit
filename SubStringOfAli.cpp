@@ -11,12 +11,14 @@
 static char *text;
 static int longLength=0;
 
+void isTheTextContainQuery( char * query);
+
 void queryText(char *text,char *query){
     
     ::text=text;
     subStringOfTest(query);
     
-    printf("%d",longLength);
+    printf("%d\n",longLength);
     
     
 }
@@ -27,20 +29,19 @@ void updatetheMaxLength(int length){
     }
 }
 
-void isTheTextContainQuery( char * query){
+void isTheTextContainQuery( string query){
     
-    if(sizeof(query)>sizeof(text)) return;
+    if(query.length()>sizeof(text)) return;
     
     string textS=text;
-    string queryS=query;
-    for(int i=0;i<sizeof(text);i++){
+    for(int i=0;i<textS.length();i++){
     
         if(text[i]==query[0]){
-            for(int j=0;j<sizeof(query);j++){
+            for(int j=0;j<query.length();j++){
                 if(text[i+j]!=query[j]){
                     break;
                 }
-                if(j==sizeof(query)-1){
+                if(j==query.length()-1){
                     updatetheMaxLength(++j);
                 }
             }
@@ -51,9 +52,9 @@ void isTheTextContainQuery( char * query){
 }
 void subString(string text,string rest){
     
-    char* textOtherConst=const_cast<char *>(text.c_str());
+//    char* textOtherConst=const_cast<char *>(text.c_str());
     
-    isTheTextContainQuery(textOtherConst);
+    isTheTextContainQuery(text);
     
     if (rest.length()<=0) {
         return;
