@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27C98BD819E786B10033A3CD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C98BD219E7858C0033A3CD /* main.cpp */; };
+		27C98BDB19E788150033A3CD /* XiaoMiWrittenQuestion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C98BD919E788150033A3CD /* XiaoMiWrittenQuestion.cpp */; };
 		27EB7F9319B3556200FCEC50 /* SubStringOfAli.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27EB7F9119B3556100FCEC50 /* SubStringOfAli.cpp */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,8 @@
 		27C98BD419E7858C0033A3CD /* Recursion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Recursion.h; path = CppPractice/Recursion.h; sourceTree = "<group>"; };
 		27C98BD519E7858C0033A3CD /* StringBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StringBuffer.cpp; path = CppPractice/StringBuffer.cpp; sourceTree = "<group>"; };
 		27C98BD619E7858C0033A3CD /* StringBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StringBuffer.h; path = CppPractice/StringBuffer.h; sourceTree = "<group>"; };
+		27C98BD919E788150033A3CD /* XiaoMiWrittenQuestion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XiaoMiWrittenQuestion.cpp; sourceTree = "<group>"; };
+		27C98BDA19E788150033A3CD /* XiaoMiWrittenQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoMiWrittenQuestion.h; sourceTree = "<group>"; };
 		27EB7F9119B3556100FCEC50 /* SubStringOfAli.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubStringOfAli.cpp; sourceTree = "<group>"; };
 		27EB7F9219B3556200FCEC50 /* SubStringOfAli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubStringOfAli.h; sourceTree = "<group>"; };
 		27FE6E501932FD6100AB2EDE /* CppPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppPractice; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +69,8 @@
 				27EB7F9219B3556200FCEC50 /* SubStringOfAli.h */,
 				27C98BD519E7858C0033A3CD /* StringBuffer.cpp */,
 				27C98BD619E7858C0033A3CD /* StringBuffer.h */,
+				27C98BDA19E788150033A3CD /* XiaoMiWrittenQuestion.h */,
+				27C98BD919E788150033A3CD /* XiaoMiWrittenQuestion.cpp */,
 			);
 			name = Algorithm;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C98BDB19E788150033A3CD /* XiaoMiWrittenQuestion.cpp in Sources */,
 				27C98BD819E786B10033A3CD /* main.cpp in Sources */,
 				27EB7F9319B3556200FCEC50 /* SubStringOfAli.cpp in Sources */,
 			);
