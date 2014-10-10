@@ -25,7 +25,6 @@ void maxNumberInTree(struct node *node){
     if (number>maxNumber) {
         maxNumber=number;
     }
-    
     maxNumberInTree(node->left);
     maxNumberInTree(node->right);
     

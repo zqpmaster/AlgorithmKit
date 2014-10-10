@@ -10,5 +10,15 @@
 #define __CppPractice__XiaoMiWrittenQuestion__
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <string>
+#include <string.h>
+
+class xiaomi{
+public:
+    bool huiWenChuan(int num);
+    
+};
+
 
 #endif /* defined(__CppPractice__XiaoMiWrittenQuestion__) */

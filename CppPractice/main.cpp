@@ -10,10 +10,12 @@
 #include <vector>
 #include <stdlib.h>
 #include <string>
+#include <cassert>
 
 #include "Recursion.h"
 #include "StringBuffer.h"
 #include "SubStringOfAli.h"
+#include "XiaoMiWrittenQuestion.h"
 
 using namespace std;
 
@@ -32,6 +34,13 @@ int main(int argc, const char * argv[])
 
 //    queryText(test, query);
     testList();
+    
+    xiaomi *mi=new xiaomi();
+    if(mi->huiWenChuan(12)){
+        assert(false);
+    }
+    
+    
     return 0;
     
 }
