@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B344DA6B-DB26-4153-8CD7-C625FC8676AB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CppPractice</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FD00CD883599D9E4EF123479C4F689D7220248A6</key>
+		<string>https://github.com/zqpmaster/CppTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CppPractice.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FD00CD883599D9E4EF123479C4F689D7220248A6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zqpmaster/CppTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FD00CD883599D9E4EF123479C4F689D7220248A6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FD00CD883599D9E4EF123479C4F689D7220248A6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CppTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

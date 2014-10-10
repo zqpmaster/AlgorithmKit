@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "27FE6E4F1932FD6100AB2EDE"
-               BuildableName = "CppTest"
-               BlueprintName = "CppTest"
-               ReferencedContainer = "container:CppTest.xcodeproj">
+               BuildableName = "CppPractice"
+               BlueprintName = "CppPractice"
+               ReferencedContainer = "container:CppPractice.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "27FE6E4F1932FD6100AB2EDE"
-            BuildableName = "CppTest"
-            BlueprintName = "CppTest"
-            ReferencedContainer = "container:CppTest.xcodeproj">
+            BuildableName = "CppPractice"
+            BlueprintName = "CppPractice"
+            ReferencedContainer = "container:CppPractice.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "27FE6E4F1932FD6100AB2EDE"
-            BuildableName = "CppTest"
-            BlueprintName = "CppTest"
-            ReferencedContainer = "container:CppTest.xcodeproj">
+            BuildableName = "CppPractice"
+            BlueprintName = "CppPractice"
+            ReferencedContainer = "container:CppPractice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "27FE6E4F1932FD6100AB2EDE"
-            BuildableName = "CppTest"
-            BlueprintName = "CppTest"
-            ReferencedContainer = "container:CppTest.xcodeproj">
+            BuildableName = "CppPractice"
+            BlueprintName = "CppPractice"
+            ReferencedContainer = "container:CppPractice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

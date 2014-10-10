@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27E6BD4B19581B3800C486E7 /* Recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27E6BD4919581B3800C486E7 /* Recursion.cpp */; };
-		27EB7F9019B354E600FCEC50 /* BSTTreeOfAli.c in Sources */ = {isa = PBXBuildFile; fileRef = 27EB7F8F19B354E600FCEC50 /* BSTTreeOfAli.c */; };
+		27C98BD819E786B10033A3CD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C98BD219E7858C0033A3CD /* main.cpp */; };
 		27EB7F9319B3556200FCEC50 /* SubStringOfAli.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27EB7F9119B3556100FCEC50 /* SubStringOfAli.cpp */; };
-		27FE6E541932FD6100AB2EDE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27FE6E531932FD6100AB2EDE /* main.cpp */; };
-		27FE6E561932FD6100AB2EDE /* CppTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27FE6E551932FD6100AB2EDE /* CppTest.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -21,21 +18,22 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				27FE6E561932FD6100AB2EDE /* CppTest.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		27E6BD4919581B3800C486E7 /* Recursion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Recursion.cpp; path = CppTest/Recursion.cpp; sourceTree = "<group>"; };
-		27E6BD4A19581B3800C486E7 /* Recursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recursion.h; path = CppTest/Recursion.h; sourceTree = "<group>"; };
-		27EB7F8F19B354E600FCEC50 /* BSTTreeOfAli.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BSTTreeOfAli.c; path = CppTest/BSTTreeOfAli.c; sourceTree = "<group>"; };
+		27C98BD019E7858C0033A3CD /* BSTTreeOfAli.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = BSTTreeOfAli.c; path = CppPractice/BSTTreeOfAli.c; sourceTree = "<group>"; };
+		27C98BD119E7858C0033A3CD /* CppTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CppTest.1; sourceTree = "<group>"; };
+		27C98BD219E7858C0033A3CD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		27C98BD319E7858C0033A3CD /* Recursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Recursion.cpp; path = CppPractice/Recursion.cpp; sourceTree = "<group>"; };
+		27C98BD419E7858C0033A3CD /* Recursion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Recursion.h; path = CppPractice/Recursion.h; sourceTree = "<group>"; };
+		27C98BD519E7858C0033A3CD /* StringBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StringBuffer.cpp; path = CppPractice/StringBuffer.cpp; sourceTree = "<group>"; };
+		27C98BD619E7858C0033A3CD /* StringBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StringBuffer.h; path = CppPractice/StringBuffer.h; sourceTree = "<group>"; };
 		27EB7F9119B3556100FCEC50 /* SubStringOfAli.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubStringOfAli.cpp; sourceTree = "<group>"; };
 		27EB7F9219B3556200FCEC50 /* SubStringOfAli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubStringOfAli.h; sourceTree = "<group>"; };
-		27FE6E501932FD6100AB2EDE /* CppTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		27FE6E531932FD6100AB2EDE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		27FE6E551932FD6100AB2EDE /* CppTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CppTest.1; sourceTree = "<group>"; };
+		27FE6E501932FD6100AB2EDE /* CppPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,14 +47,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27C98BCF19E7858C0033A3CD /* CppPractice */ = {
+			isa = PBXGroup;
+			children = (
+				27C98BD119E7858C0033A3CD /* CppTest.1 */,
+				27C98BD219E7858C0033A3CD /* main.cpp */,
+			);
+			path = CppPractice;
+			sourceTree = "<group>";
+		};
 		27E6BD4C1958204500C486E7 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				27E6BD4A19581B3800C486E7 /* Recursion.h */,
-				27E6BD4919581B3800C486E7 /* Recursion.cpp */,
-				27EB7F8F19B354E600FCEC50 /* BSTTreeOfAli.c */,
+				27C98BD019E7858C0033A3CD /* BSTTreeOfAli.c */,
+				27C98BD319E7858C0033A3CD /* Recursion.cpp */,
+				27C98BD419E7858C0033A3CD /* Recursion.h */,
 				27EB7F9119B3556100FCEC50 /* SubStringOfAli.cpp */,
 				27EB7F9219B3556200FCEC50 /* SubStringOfAli.h */,
+				27C98BD519E7858C0033A3CD /* StringBuffer.cpp */,
+				27C98BD619E7858C0033A3CD /* StringBuffer.h */,
 			);
 			name = Algorithm;
 			sourceTree = "<group>";
@@ -64,7 +73,7 @@
 		27FE6E471932FD6000AB2EDE = {
 			isa = PBXGroup;
 			children = (
-				27FE6E521932FD6100AB2EDE /* CppTest */,
+				27C98BCF19E7858C0033A3CD /* CppPractice */,
 				27E6BD4C1958204500C486E7 /* Algorithm */,
 				27FE6E511932FD6100AB2EDE /* Products */,
 			);
@@ -73,26 +82,17 @@
 		27FE6E511932FD6100AB2EDE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27FE6E501932FD6100AB2EDE /* CppTest */,
+				27FE6E501932FD6100AB2EDE /* CppPractice */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		27FE6E521932FD6100AB2EDE /* CppTest */ = {
-			isa = PBXGroup;
-			children = (
-				27FE6E531932FD6100AB2EDE /* main.cpp */,
-				27FE6E551932FD6100AB2EDE /* CppTest.1 */,
-			);
-			path = CppTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		27FE6E4F1932FD6100AB2EDE /* CppTest */ = {
+		27FE6E4F1932FD6100AB2EDE /* CppPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27FE6E591932FD6100AB2EDE /* Build configuration list for PBXNativeTarget "CppTest" */;
+			buildConfigurationList = 27FE6E591932FD6100AB2EDE /* Build configuration list for PBXNativeTarget "CppPractice" */;
 			buildPhases = (
 				27FE6E4C1932FD6100AB2EDE /* Sources */,
 				27FE6E4D1932FD6100AB2EDE /* Frameworks */,
@@ -102,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = CppTest;
+			name = CppPractice;
 			productName = CppTest;
-			productReference = 27FE6E501932FD6100AB2EDE /* CppTest */;
+			productReference = 27FE6E501932FD6100AB2EDE /* CppPractice */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +116,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = ZQP;
 			};
-			buildConfigurationList = 27FE6E4B1932FD6100AB2EDE /* Build configuration list for PBXProject "CppTest" */;
+			buildConfigurationList = 27FE6E4B1932FD6100AB2EDE /* Build configuration list for PBXProject "CppPractice" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27FE6E4F1932FD6100AB2EDE /* CppTest */,
+				27FE6E4F1932FD6100AB2EDE /* CppPractice */,
 			);
 		};
 /* End PBXProject section */
@@ -138,9 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27E6BD4B19581B3800C486E7 /* Recursion.cpp in Sources */,
-				27EB7F9019B354E600FCEC50 /* BSTTreeOfAli.c in Sources */,
-				27FE6E541932FD6100AB2EDE /* main.cpp in Sources */,
+				27C98BD819E786B10033A3CD /* main.cpp in Sources */,
 				27EB7F9319B3556200FCEC50 /* SubStringOfAli.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,21 +219,21 @@
 		27FE6E5A1932FD6100AB2EDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CppPractice;
 			};
 			name = Debug;
 		};
 		27FE6E5B1932FD6100AB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CppPractice;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27FE6E4B1932FD6100AB2EDE /* Build configuration list for PBXProject "CppTest" */ = {
+		27FE6E4B1932FD6100AB2EDE /* Build configuration list for PBXProject "CppPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27FE6E571932FD6100AB2EDE /* Debug */,
@@ -244,7 +242,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27FE6E591932FD6100AB2EDE /* Build configuration list for PBXNativeTarget "CppTest" */ = {
+		27FE6E591932FD6100AB2EDE /* Build configuration list for PBXNativeTarget "CppPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27FE6E5A1932FD6100AB2EDE /* Debug */,
