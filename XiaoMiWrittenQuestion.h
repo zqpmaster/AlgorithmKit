@@ -18,6 +18,7 @@ class xiaomi{
 public:
     bool huiWenChuan(int num);
     
+    
 };
 
 
