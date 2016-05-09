@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		275A65E51CE0D25D0026E340 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 275A65E31CE0D25D0026E340 /* QuickSort.c */; };
-		27C98BD819E786B10033A3CD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C98BD219E7858C0033A3CD /* main.cpp */; };
-		27C98BDB19E788150033A3CD /* XiaoMiWrittenQuestion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C98BD919E788150033A3CD /* XiaoMiWrittenQuestion.cpp */; };
-		27EB7F9319B3556200FCEC50 /* SubStringOfAli.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27EB7F9119B3556100FCEC50 /* SubStringOfAli.cpp */; };
+		275A65FF1CE0D55E0026E340 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 275A65F91CE0D55E0026E340 /* QuickSort.c */; };
+		275A66001CE0D55E0026E340 /* Recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 275A65FB1CE0D55E0026E340 /* Recursion.cpp */; };
+		275A66011CE0D55E0026E340 /* StringBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 275A65FD1CE0D55E0026E340 /* StringBuffer.cpp */; };
+		275A66091CE0D6B70026E340 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 275A66051CE0D5810026E340 /* main.cpp */; };
+		275A660C1CE0D6D00026E340 /* SeperateRMB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 275A660A1CE0D6D00026E340 /* SeperateRMB.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,19 +27,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		275A65E31CE0D25D0026E340 /* QuickSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
-		275A65E41CE0D25D0026E340 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
-		27C98BD019E7858C0033A3CD /* BSTTreeOfAli.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = BSTTreeOfAli.c; path = CppPractice/BSTTreeOfAli.c; sourceTree = "<group>"; };
-		27C98BD119E7858C0033A3CD /* CppTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CppTest.1; sourceTree = "<group>"; };
-		27C98BD219E7858C0033A3CD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		27C98BD319E7858C0033A3CD /* Recursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Recursion.cpp; path = CppPractice/Recursion.cpp; sourceTree = "<group>"; };
-		27C98BD419E7858C0033A3CD /* Recursion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Recursion.h; path = CppPractice/Recursion.h; sourceTree = "<group>"; };
-		27C98BD519E7858C0033A3CD /* StringBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StringBuffer.cpp; path = CppPractice/StringBuffer.cpp; sourceTree = "<group>"; };
-		27C98BD619E7858C0033A3CD /* StringBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StringBuffer.h; path = CppPractice/StringBuffer.h; sourceTree = "<group>"; };
-		27C98BD919E788150033A3CD /* XiaoMiWrittenQuestion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XiaoMiWrittenQuestion.cpp; sourceTree = "<group>"; };
-		27C98BDA19E788150033A3CD /* XiaoMiWrittenQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoMiWrittenQuestion.h; sourceTree = "<group>"; };
-		27EB7F9119B3556100FCEC50 /* SubStringOfAli.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubStringOfAli.cpp; sourceTree = "<group>"; };
-		27EB7F9219B3556200FCEC50 /* SubStringOfAli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubStringOfAli.h; sourceTree = "<group>"; };
+		275A65F31CE0D5190026E340 /* BSTTreeOfAli.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BSTTreeOfAli.c; sourceTree = "<group>"; };
+		275A65F41CE0D5190026E340 /* SubStringOfAli.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubStringOfAli.cpp; sourceTree = "<group>"; };
+		275A65F51CE0D5190026E340 /* SubStringOfAli.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubStringOfAli.h; sourceTree = "<group>"; };
+		275A65F61CE0D5190026E340 /* XiaoMiWrittenQuestion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = XiaoMiWrittenQuestion.cpp; sourceTree = "<group>"; };
+		275A65F71CE0D5190026E340 /* XiaoMiWrittenQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaoMiWrittenQuestion.h; sourceTree = "<group>"; };
+		275A65F91CE0D55E0026E340 /* QuickSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
+		275A65FA1CE0D55E0026E340 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		275A65FB1CE0D55E0026E340 /* Recursion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recursion.cpp; sourceTree = "<group>"; };
+		275A65FC1CE0D55E0026E340 /* Recursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recursion.h; sourceTree = "<group>"; };
+		275A65FD1CE0D55E0026E340 /* StringBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringBuffer.cpp; sourceTree = "<group>"; };
+		275A65FE1CE0D55E0026E340 /* StringBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringBuffer.h; sourceTree = "<group>"; };
+		275A66031CE0D5810026E340 /* Collection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Collection.cpp; sourceTree = "<group>"; };
+		275A66041CE0D5810026E340 /* Collection.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Collection.hpp; sourceTree = "<group>"; };
+		275A66051CE0D5810026E340 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		275A660A1CE0D6D00026E340 /* SeperateRMB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SeperateRMB.cpp; sourceTree = "<group>"; };
+		275A660B1CE0D6D00026E340 /* SeperateRMB.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SeperateRMB.hpp; sourceTree = "<group>"; };
 		27FE6E501932FD6100AB2EDE /* CppPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -53,38 +57,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27C98BCF19E7858C0033A3CD /* CppPractice */ = {
+		275A65F21CE0D5190026E340 /* Question */ = {
 			isa = PBXGroup;
 			children = (
-				27C98BD119E7858C0033A3CD /* CppTest.1 */,
-				27C98BD219E7858C0033A3CD /* main.cpp */,
+				275A65F31CE0D5190026E340 /* BSTTreeOfAli.c */,
+				275A65F41CE0D5190026E340 /* SubStringOfAli.cpp */,
+				275A65F51CE0D5190026E340 /* SubStringOfAli.h */,
+				275A65F61CE0D5190026E340 /* XiaoMiWrittenQuestion.cpp */,
+				275A65F71CE0D5190026E340 /* XiaoMiWrittenQuestion.h */,
+				275A660A1CE0D6D00026E340 /* SeperateRMB.cpp */,
+				275A660B1CE0D6D00026E340 /* SeperateRMB.hpp */,
 			);
-			path = CppPractice;
+			path = Question;
 			sourceTree = "<group>";
 		};
-		27E6BD4C1958204500C486E7 /* Algorithm */ = {
+		275A65F81CE0D55E0026E340 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				275A65E31CE0D25D0026E340 /* QuickSort.c */,
-				275A65E41CE0D25D0026E340 /* QuickSort.h */,
-				27C98BD019E7858C0033A3CD /* BSTTreeOfAli.c */,
-				27C98BD319E7858C0033A3CD /* Recursion.cpp */,
-				27C98BD419E7858C0033A3CD /* Recursion.h */,
-				27EB7F9119B3556100FCEC50 /* SubStringOfAli.cpp */,
-				27EB7F9219B3556200FCEC50 /* SubStringOfAli.h */,
-				27C98BD519E7858C0033A3CD /* StringBuffer.cpp */,
-				27C98BD619E7858C0033A3CD /* StringBuffer.h */,
-				27C98BDA19E788150033A3CD /* XiaoMiWrittenQuestion.h */,
-				27C98BD919E788150033A3CD /* XiaoMiWrittenQuestion.cpp */,
+				275A65F91CE0D55E0026E340 /* QuickSort.c */,
+				275A65FA1CE0D55E0026E340 /* QuickSort.h */,
+				275A65FB1CE0D55E0026E340 /* Recursion.cpp */,
+				275A65FC1CE0D55E0026E340 /* Recursion.h */,
+				275A65FD1CE0D55E0026E340 /* StringBuffer.cpp */,
+				275A65FE1CE0D55E0026E340 /* StringBuffer.h */,
 			);
-			name = Algorithm;
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		275A66021CE0D5810026E340 /* CppPractice */ = {
+			isa = PBXGroup;
+			children = (
+				275A66031CE0D5810026E340 /* Collection.cpp */,
+				275A66041CE0D5810026E340 /* Collection.hpp */,
+				275A66051CE0D5810026E340 /* main.cpp */,
+			);
+			path = CppPractice;
 			sourceTree = "<group>";
 		};
 		27FE6E471932FD6000AB2EDE = {
 			isa = PBXGroup;
 			children = (
-				27C98BCF19E7858C0033A3CD /* CppPractice */,
-				27E6BD4C1958204500C486E7 /* Algorithm */,
+				275A66021CE0D5810026E340 /* CppPractice */,
+				275A65F81CE0D55E0026E340 /* Algorithm */,
+				275A65F21CE0D5190026E340 /* Question */,
 				27FE6E511932FD6100AB2EDE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,7 +141,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = ZQP;
 			};
-			buildConfigurationList = 27FE6E4B1932FD6100AB2EDE /* Build configuration list for PBXProject "CppPractice" */;
+			buildConfigurationList = 27FE6E4B1932FD6100AB2EDE /* Build configuration list for PBXProject "Algorithm" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,10 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C98BDB19E788150033A3CD /* XiaoMiWrittenQuestion.cpp in Sources */,
-				275A65E51CE0D25D0026E340 /* QuickSort.c in Sources */,
-				27C98BD819E786B10033A3CD /* main.cpp in Sources */,
-				27EB7F9319B3556200FCEC50 /* SubStringOfAli.cpp in Sources */,
+				275A66001CE0D55E0026E340 /* Recursion.cpp in Sources */,
+				275A660C1CE0D6D00026E340 /* SeperateRMB.cpp in Sources */,
+				275A65FF1CE0D55E0026E340 /* QuickSort.c in Sources */,
+				275A66091CE0D6B70026E340 /* main.cpp in Sources */,
+				275A66011CE0D55E0026E340 /* StringBuffer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +261,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27FE6E4B1932FD6100AB2EDE /* Build configuration list for PBXProject "CppPractice" */ = {
+		27FE6E4B1932FD6100AB2EDE /* Build configuration list for PBXProject "Algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27FE6E571932FD6100AB2EDE /* Debug */,
