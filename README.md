@@ -7,5 +7,7 @@ Two Classic Recursion
 
 Quick Sort
 
-Tree...
+Various types of Tree...
+
+Some algorithm questions
 
