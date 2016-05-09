@@ -1,8 +1,6 @@
 AlgorithmSet
 ===========
 
-Practice Algorithm With Cpp 
-
 Two Classic Recursion
 
 Quick Sort
@@ -10,4 +8,8 @@ Quick Sort
 Various types of Tree...
 
 Some algorithm questions
+
+and so on. 
+
+未完待续 ：）
 
