@@ -138,7 +138,6 @@ struct ListNode {
 
 void testList(){
     
-    
 //    ListNode *node = new ListNode();
 //    ListNode *header=node;
 //    for (int i=0; i<5; i++) {
@@ -157,7 +156,6 @@ void testList(){
         i++;
         node->num=i;
     }
-    
     
     node=header;
     while (node) {

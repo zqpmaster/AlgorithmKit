@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		275A65E51CE0D25D0026E340 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 275A65E31CE0D25D0026E340 /* QuickSort.c */; };
 		27C98BD819E786B10033A3CD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C98BD219E7858C0033A3CD /* main.cpp */; };
 		27C98BDB19E788150033A3CD /* XiaoMiWrittenQuestion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C98BD919E788150033A3CD /* XiaoMiWrittenQuestion.cpp */; };
 		27EB7F9319B3556200FCEC50 /* SubStringOfAli.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27EB7F9119B3556100FCEC50 /* SubStringOfAli.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		275A65E31CE0D25D0026E340 /* QuickSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
+		275A65E41CE0D25D0026E340 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
 		27C98BD019E7858C0033A3CD /* BSTTreeOfAli.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = BSTTreeOfAli.c; path = CppPractice/BSTTreeOfAli.c; sourceTree = "<group>"; };
 		27C98BD119E7858C0033A3CD /* CppTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CppTest.1; sourceTree = "<group>"; };
 		27C98BD219E7858C0033A3CD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 		27E6BD4C1958204500C486E7 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				275A65E31CE0D25D0026E340 /* QuickSort.c */,
+				275A65E41CE0D25D0026E340 /* QuickSort.h */,
 				27C98BD019E7858C0033A3CD /* BSTTreeOfAli.c */,
 				27C98BD319E7858C0033A3CD /* Recursion.cpp */,
 				27C98BD419E7858C0033A3CD /* Recursion.h */,
@@ -144,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C98BDB19E788150033A3CD /* XiaoMiWrittenQuestion.cpp in Sources */,
+				275A65E51CE0D25D0026E340 /* QuickSort.c in Sources */,
 				27C98BD819E786B10033A3CD /* main.cpp in Sources */,
 				27EB7F9319B3556200FCEC50 /* SubStringOfAli.cpp in Sources */,
 			);
