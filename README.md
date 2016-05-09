@@ -1,4 +1,11 @@
-CppPractice
+AlgorithmSet
 ===========
 
-Algorithm Of Cpp .Two Classic Recursion..
+Practice Algorithm With Cpp 
+
+Two Classic Recursion
+
+Quick Sort
+
+Tree...
+
