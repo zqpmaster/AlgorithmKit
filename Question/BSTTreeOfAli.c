@@ -21,10 +21,11 @@ void maxNumberInTree(struct node *node){
         return;
     }
     
-    int  number=node->number;
+    int number=node->number;
     if (number>maxNumber) {
         maxNumber=number;
     }
+    
     maxNumberInTree(node->left);
     maxNumberInTree(node->right);
     
@@ -57,9 +58,7 @@ int printTheMaxDistinct(struct node* root){
     
     int theMaxAbsoultValue=maxNumber-minNumber;
     
-    printf("最大值为%d",theMaxAbsoultValue);
-    
-    
+    printf("最大值为%d", theMaxAbsoultValue);
     
     return 0;
 }

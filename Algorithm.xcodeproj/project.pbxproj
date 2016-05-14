@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272897F51CE7398000FE2C34 /* BinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 272897F31CE7398000FE2C34 /* BinarySearchTree.cpp */; };
 		275A65FF1CE0D55E0026E340 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 275A65F91CE0D55E0026E340 /* QuickSort.c */; };
 		275A66001CE0D55E0026E340 /* Recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 275A65FB1CE0D55E0026E340 /* Recursion.cpp */; };
 		275A66011CE0D55E0026E340 /* StringBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 275A65FD1CE0D55E0026E340 /* StringBuffer.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		272897F31CE7398000FE2C34 /* BinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearchTree.cpp; sourceTree = "<group>"; };
+		272897F41CE7398000FE2C34 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
 		275A65F31CE0D5190026E340 /* BSTTreeOfAli.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BSTTreeOfAli.c; sourceTree = "<group>"; };
 		275A65F41CE0D5190026E340 /* SubStringOfAli.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubStringOfAli.cpp; sourceTree = "<group>"; };
 		275A65F51CE0D5190026E340 /* SubStringOfAli.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubStringOfAli.h; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 				275A65FC1CE0D55E0026E340 /* Recursion.h */,
 				275A65FD1CE0D55E0026E340 /* StringBuffer.cpp */,
 				275A65FE1CE0D55E0026E340 /* StringBuffer.h */,
+				272897F31CE7398000FE2C34 /* BinarySearchTree.cpp */,
+				272897F41CE7398000FE2C34 /* BinarySearchTree.hpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 			files = (
 				275A66001CE0D55E0026E340 /* Recursion.cpp in Sources */,
 				275A660C1CE0D6D00026E340 /* SeperateRMB.cpp in Sources */,
+				272897F51CE7398000FE2C34 /* BinarySearchTree.cpp in Sources */,
 				275A65FF1CE0D55E0026E340 /* QuickSort.c in Sources */,
 				275A66091CE0D6B70026E340 /* main.cpp in Sources */,
 				275A66011CE0D55E0026E340 /* StringBuffer.cpp in Sources */,
