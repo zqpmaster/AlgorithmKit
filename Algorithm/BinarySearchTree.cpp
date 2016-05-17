@@ -7,15 +7,31 @@
 //
 
 #include "BinarySearchTree.hpp"
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
 
-bool _DeleteNode(Node *node)
+using namespace std;
+
+bool _DeleteNode(Node **node)
 {
- 
-    Node *target = node;
+    if (nullptr == node)
+    {
+        return false;
+    }
+
+    Node *target = *node;
+    
+    if (nullptr == target)
+    {
+        return false;
+    }
+
     
     if (!target->leftNode && !target->rightNode)
     {
         delete target;
+        *node = nullptr;
     }else if (!target->leftNode)
     {
         Node *rightNode = target->rightNode;
@@ -63,22 +79,132 @@ bool _DeleteNode(Node *node)
 }
 
 
-bool deleteBST(Node *root, ValueType value)
+bool _deleteBST(Node **root, ValueType value)
 {
-    if (!root)
+    if (nullptr == root)
+    {
+        return false;
+    }
+    
+    Node *r = *root;
+    if (!r)
     {
         return false;
     }
 
-    if (root->value == value)
+    if (r->value == value)
     {
         return _DeleteNode(root);
-    }else if (root->value > value)
+    }else if (r->value > value)
     {
-        return deleteBST(root->leftNode , value);
+        return _deleteBST(&r->leftNode , value);
     }else
     {
-        return deleteBST(root->rightNode, value);
+        return _deleteBST(&r->rightNode, value);
     }
 }
 
+bool deleteBST(Node *root, ValueType value)
+{
+    return _deleteBST(&root , value);
+}
+
+
+bool searchBST(Node *root, ValueType value, Node **node)
+{
+    if (root == nullptr)
+    {
+        return false;
+    }
+    
+    if (root->value == value)
+    {
+        *node = root;
+        return true;
+    }else if (root->value < value)
+    {
+        return searchBST(root->rightNode, value, node);
+    }else
+    {
+        return searchBST(root->leftNode, value, node);
+    }
+    
+    return false;
+}
+
+bool _addBST(Node **root, ValueType value)
+{
+    if (nullptr == root)
+    {
+        return false;
+    }
+
+    Node *r = *root;
+    
+    if (nullptr == r)
+    {
+        Node *node = new Node;
+        node->value = value;
+        
+        *root = node;
+        return true;
+    }
+    
+    if (value == r->value)
+    {
+        return false;
+    }else if (r->value > value)
+    {
+        return _addBST(&r->leftNode, value);
+    }else
+    {
+        return _addBST(&r->rightNode, value);
+    }
+    
+}
+
+bool addBST(Node *root, ValueType value)
+{
+    return _addBST(&root, value);
+}
+
+
+void traverseBST(Node *root, void function(ValueType))
+{
+    if (nullptr == root)
+    {
+        return;
+    }
+    
+    //前序
+    function(root->value);
+    traverseBST(root->leftNode, function);
+    traverseBST(root->rightNode, function);
+    
+    //中序
+    traverseBST(root->leftNode, function);
+    function(root->value);
+    traverseBST(root->rightNode, function);
+
+    //后序
+    traverseBST(root->leftNode, function);
+    traverseBST(root->rightNode, function);
+    function(root->value);
+
+}
+
+void reverseBST(Node *root)
+{
+    if (nullptr == root)
+    {
+        return;
+    }
+    
+    Node *temp = root->leftNode;
+    root->leftNode = root->rightNode;
+    root->rightNode = temp;
+    
+    reverseBST(root->leftNode);
+    reverseBST(root->rightNode);
+
+}

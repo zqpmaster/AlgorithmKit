@@ -19,8 +19,19 @@ struct Node
     Node *rightNode;
 };
 
-//int searchBST(Node *root, ValueType value);
-bool deleteBST(Node *root, ValueType value);//TODO test
-//int addBST(Node *root, ValueType value);
+//TODO test
+
+//搜索
+bool searchBST(Node *root, ValueType value, Node **node);
+//删除
+bool deleteBST(Node *root, ValueType value);
+//增加
+bool addBST(Node *root, ValueType value);
+
+//二叉树遍历
+void traverseBST(Node *root, void function(ValueType));
+
+//反转二叉树
+void reverseBST(Node *root);
 
 #endif /* BinarySearchTree_hpp */

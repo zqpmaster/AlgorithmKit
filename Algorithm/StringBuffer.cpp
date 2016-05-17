@@ -47,8 +47,8 @@ void testBuffer()
 {
     
     
-    char * query="aaaaa";
-    char * test="calccbabb";
+    char * query = "aaaaa";
+    char * test = "calccbabb";
     
     StringBuffer *buffer=new StringBuffer;
     for (int i=0; i<5; i++) {

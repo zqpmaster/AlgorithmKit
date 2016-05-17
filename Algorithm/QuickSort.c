@@ -15,6 +15,7 @@ void z_swap(int *a,int *b)
     *b = *a;
     *a = temp;
 }
+
 size_t z_partition(int *ary, size_t len, size_t pivot_i){
     
     int i=0;
@@ -46,5 +47,6 @@ int test_quick_sort(void)
     {
         printf("%d\n",ary[i]);
     }
+    
     return 0;
 }
