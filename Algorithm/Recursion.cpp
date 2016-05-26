@@ -8,6 +8,7 @@
 
 #include "Recursion.h"
 #include "String.h"
+
 void recPermute(string sofar,string rest){
     if (rest=="") {
         cout<<sofar<<endl;
@@ -37,3 +38,5 @@ void recSubsets(string sofar,string rest){
 void Recursion::testSubsets(string testStr){
     recSubsets("", testStr);
 }
+
+

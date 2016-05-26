@@ -14,6 +14,7 @@
 		275A66091CE0D6B70026E340 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 275A66051CE0D5810026E340 /* main.cpp */; };
 		275A660C1CE0D6D00026E340 /* SeperateRMB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 275A660A1CE0D6D00026E340 /* SeperateRMB.cpp */; };
 		27CD60531CE8448300199A82 /* testBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27CD60511CE8448300199A82 /* testBST.cpp */; };
+		27E83C501CF73E0600BD8835 /* HashMap.c in Sources */ = {isa = PBXBuildFile; fileRef = 27E83C4E1CF73E0600BD8835 /* HashMap.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,8 @@
 		275A660B1CE0D6D00026E340 /* SeperateRMB.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SeperateRMB.hpp; sourceTree = "<group>"; };
 		27CD60511CE8448300199A82 /* testBST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testBST.cpp; sourceTree = "<group>"; };
 		27CD60521CE8448300199A82 /* testBST.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = testBST.hpp; sourceTree = "<group>"; };
+		27E83C4E1CF73E0600BD8835 /* HashMap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HashMap.c; sourceTree = "<group>"; };
+		27E83C4F1CF73E0600BD8835 /* HashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashMap.h; sourceTree = "<group>"; };
 		27FE6E501932FD6100AB2EDE /* CppPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,6 +91,8 @@
 				275A65FE1CE0D55E0026E340 /* StringBuffer.h */,
 				272897F31CE7398000FE2C34 /* BinarySearchTree.cpp */,
 				272897F41CE7398000FE2C34 /* BinarySearchTree.hpp */,
+				27E83C4E1CF73E0600BD8835 /* HashMap.c */,
+				27E83C4F1CF73E0600BD8835 /* HashMap.h */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E83C501CF73E0600BD8835 /* HashMap.c in Sources */,
 				275A66001CE0D55E0026E340 /* Recursion.cpp in Sources */,
 				275A660C1CE0D6D00026E340 /* SeperateRMB.cpp in Sources */,
 				272897F51CE7398000FE2C34 /* BinarySearchTree.cpp in Sources */,
